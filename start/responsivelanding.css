@@ -1,0 +1,96 @@
+/* 
+reset
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 20px;
+}
+
+/* header */
+header {
+    /* background-color: aqua; */
+    /* padding: 34px 78px; */
+}
+
+header .logo img {
+    width:100px;
+    height:85px;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header nav .navbar ul li */
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 3px 6px;
+    margin: 0 20px;
+}
+
+.navbar li:last-child a {
+    padding-right: 0px;
+}
+
+.navbar li a {
+    transition: color ease 0.5s;
+}
+
+.navbar li:hover a {
+    color:rgb(191, 11, 11);
+}
+
+.navbar li.active a{
+    /* text-decoration: underline; */
+    border-bottom: 2px solid red;
+}
+
+.music {
+
+}
+
+.music img {
+    margin-top: 0;
+    width: 100%;
+}
+
+.music .info {
+    position: absolute;
+    top: 350px;
+    margin-left: 70%;
+    margin-right: 95px;
+    outline: 1px solid white;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: aqua;
+}
+
+.explore {
+    color:bisque;
+}
